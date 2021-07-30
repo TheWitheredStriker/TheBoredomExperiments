@@ -1,6 +1,6 @@
 --[[
           ASK INPUT FROM THE USER
-   We do this by first printing text to the screen. We then make a variable, and set its values to whatever the user 
+   We do this by first writing text to the screen. We then make a variable, and set its values to whatever the user 
    responds to the program, converted from a string (text) to a number (a mathematical number).
 ]]
 
