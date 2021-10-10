@@ -51,7 +51,7 @@ namespace Hello_World_Experiment
         '      at the start gets larger (e. g. 9 --> 10) and then
         '      eliminating one space, keeping equal distance.
 
-        private shared function GetSpaces(byval CurrentNumber as Integer) as string
+        private shared function GetSpaces(byval CurrentNumber as integer) as string
   
             dim LengthNumber as integer = CurrentNumber.ToString().Length
             dim NumberSpaces as integer = (10 - LengthNumber)
