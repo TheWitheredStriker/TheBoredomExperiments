@@ -55,7 +55,7 @@ namespace Hello_World_Experiment
   
             dim LengthNumber as integer = CurrentNumber.ToString().Length
             dim NumberSpaces as integer = (10 - LengthNumber)
-            dim Spaces as string = ""
+            dim Spaces       as string  = ""
 
             for i as integer = 0 to NumberSpaces - 1
                 Spaces += " "
