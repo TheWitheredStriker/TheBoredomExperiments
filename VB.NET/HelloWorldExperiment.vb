@@ -20,7 +20,7 @@ imports System.Threading.Tasks
 
 namespace Hello_World_Experiment
     class Program
-        private shared sub Main(byval args as String())
+        private shared sub Main(byval args as string())
     
             dim Number as integer = 0
     
@@ -29,7 +29,7 @@ namespace Hello_World_Experiment
             ' a loop that continues for as long as the number
             ' is a number -- long story short, an infinite loop.
 
-            while Number.[gettype]() = gettype(Integer)
+            while Number.[gettype]() = gettype(integer)
                 Number += 1
                 Console.WriteLine(Number & GetSpaces(Number) & " | Hello, world!")
                 Thread.Sleep(400)
@@ -51,11 +51,11 @@ namespace Hello_World_Experiment
         '      at the start gets larger (e. g. 9 --> 10) and then
         '      eliminating one space, keeping equal distance.
 
-        private shared function GetSpaces(byval CurrentNumber as Integer) as String
+        private shared function GetSpaces(byval CurrentNumber as Integer) as string
   
-            dim LengthNumber as Integer = CurrentNumber.ToString().Length
-            dim NumberSpaces as Integer = (10 - LengthNumber)
-            dim Spaces as String = ""
+            dim LengthNumber as integer = CurrentNumber.ToString().Length
+            dim NumberSpaces as integer = (10 - LengthNumber)
+            dim Spaces as string = ""
 
             for i as integer = 0 to NumberSpaces - 1
                 Spaces += " "
