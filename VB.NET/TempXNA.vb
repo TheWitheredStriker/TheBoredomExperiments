@@ -1,3 +1,5 @@
+''' [This is a temporarily file to show to my friends what VB.NET code with lowercase keywords looks like. It was derived from https://github.com/ZepedaJake/2D-RPG-XNA-VB/blob/master/VB%20Game/WindowsGame1.1/WindowsGame1/WindowsGame1/WindowsGame1/Main/Game1.vb]
+
 ''' <summary>
 ''' This is the main type for your game
 ''' </summary>
